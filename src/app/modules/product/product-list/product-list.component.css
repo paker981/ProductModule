@@ -1,0 +1,26 @@
+.table-image {
+    max-width: 100px; /* Maksymalna szerokość obrazka */
+    max-height: 100px; /* Maksymalna wysokość obrazka */
+  }
+
+button {
+    margin: 2px;
+}
+
+/* styles.scss */
+.error {
+  background-color: red; /* Kolor tła, np. zielony */
+  color: white; /* Kolor tekstu */
+}
+
+.success {
+  background-color: green; /* Kolor tła, np. zielony */
+  color: white; /* Kolor tekstu */
+}
+
+.custom-snackbar {
+  &.mat-simple-snackbar {
+    background-color: green; /* Kolor tła, np. zielony */
+    color: white; /* Kolor tekstu */
+  }
+}
